@@ -13,13 +13,13 @@ echo "CONFIG_PACKAGE_luci-app-cpufreq=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-app-cpulimit=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-app-disks-info=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-app-onliner=y"  >> ./.config
-echo "CONFIG_PACKAGE_luci-app-openvpn=y"  >> ./.config
+# echo "CONFIG_PACKAGE_luci-app-openvpn=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-app-ramfree=y"  >> ./.config
-echo "CONFIG_PACKAGE_luci-app-timecontrol=y"  >> ./.config
+# echo "CONFIG_PACKAGE_luci-app-timecontrol=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-app-timewol=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-app-ttyd=y"  >> ./.config
 
-echo "CONFIG_PACKAGE_luci-app-verysync=y"  >> ./.config
+# echo "CONFIG_PACKAGE_luci-app-verysync=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-app-wrtbwmon=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-app-zerotier=y"  >> ./.config
 
@@ -41,18 +41,18 @@ echo "CONFIG_PACKAGE_luci-i18n-accesscontrol-zh-cn=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-i18n-cpufreq-zh-cn=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-i18n-cpulimit-zh-cn=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-i18n-disks-info-zh-cn=y"  >> ./.config
-echo "CONFIG_PACKAGE_luci-i18n-openvpn-zh-cn=y"  >> ./.config
+# echo "CONFIG_PACKAGE_luci-i18n-openvpn-zh-cn=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-i18n-ramfree-zh-cn=y"  >> ./.config
-echo "CONFIG_PACKAGE_luci-i18n-timecontrol-zh-cn=y"  >> ./.config
+# echo "CONFIG_PACKAGE_luci-i18n-timecontrol-zh-cn=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-i18n-timewol-zh-cn=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y"  >> ./.config
 
-echo "CONFIG_PACKAGE_luci-i18n-verysync-zh-cn=y"  >> ./.config
+# echo "CONFIG_PACKAGE_luci-i18n-verysync-zh-cn=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-i18n-wrtbwmon-zh-cn=y"  >> ./.config
 echo "CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y"  >> ./.config
 echo "CONFIG_PACKAGE_ttyd=y"  >> ./.config
 
-echo "CONFIG_PACKAGE_verysync=y"  >> ./.config
+# echo "CONFIG_PACKAGE_verysync=y"  >> ./.config
 echo "CONFIG_PACKAGE_wrtbwmon=y"  >> ./.config
 echo "CONFIG_PACKAGE_zerotier=y"  >> ./.config
 

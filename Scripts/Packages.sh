@@ -26,39 +26,39 @@ UPDATE_PACKAGE "argon" "jerrykuku/luci-theme-argon" "$([[ $WRT_REPO == *"lede"* 
 UPDATE_PACKAGE "design" "0x676e67/luci-theme-design" "$([[ $WRT_REPO == *"lede"* ]] && echo "main" || echo "js")"
 UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "$([[ $WRT_REPO == *"lede"* ]] && echo "main" || echo "js")"
 
-UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
+# UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main"
-UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"
+# UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"
 
 UPDATE_PACKAGE "advancedplus" "VIKINGYFY/luci-app-advancedplus" "main"
 UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
-UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
+# UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "luci-app-wolplus" "animegasan/luci-app-wolplus" "main"
 
 # 我添加的---------------------------------------------------------------------------------------
-UPDATE_PACKAGE "luci-app-adbyby-plus" "kiddin9/openwrt-packages" "master" "pkg"
-UPDATE_PACKAGE "adbyby" "kiddin9/openwrt-packages" "master" "pkg"
+# UPDATE_PACKAGE "luci-app-adbyby-plus" "kiddin9/openwrt-packages" "master" "pkg"
+# UPDATE_PACKAGE "adbyby" "kiddin9/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-app-wrtbwmon" "kiddin9/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "wrtbwmon" "kiddin9/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-lib-taskd" "kiddin9/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "taskd" "kiddin9/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-lib-xterm" "kiddin9/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-app-disks-info" "kiddin9/openwrt-packages" "master" "pkg"
-UPDATE_PACKAGE "luci-app-poweroff" "esirplayground/luci-app-poweroff" "master"
+# UPDATE_PACKAGE "luci-app-poweroff" "esirplayground/luci-app-poweroff" "master"
 UPDATE_PACKAGE "luci-app-onliner" "haiibo/packages" "main" "pkg"
 
 UPDATE_PACKAGE "luci-theme-netgear" "haiibo/packages" "main" "pkg"
 UPDATE_PACKAGE "adguardhome" "haiibo/packages" "main" "pkg"
 UPDATE_PACKAGE "luci-app-adguardhome" "haiibo/packages" "main" "pkg"
-UPDATE_PACKAGE "luci-app-advanced" "haiibo/packages" "main" "pkg"
+# UPDATE_PACKAGE "luci-app-advanced" "haiibo/packages" "main" "pkg"
 UPDATE_PACKAGE "luci-app-ikoolproxy" "haiibo/packages" "main" "pkg"
 UPDATE_PACKAGE "luci-app-netdata" "haiibo/packages" "main" "pkg"
 UPDATE_PACKAGE "homebox" "haiibo/packages" "main" "pkg"
 UPDATE_PACKAGE "luci-app-netspeedtest" "haiibo/packages" "main" "pkg"
 
-# UPDATE_PACKAGE "frp" "kenzok8/jell" "main" "pkg"
-# UPDATE_PACKAGE "luci-app-frpc" "kenzok8/jell" "main" "pkg"
-# UPDATE_PACKAGE "luci-app-frps" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "frp" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "luci-app-frpc" "kenzok8/jell" "main" "pkg"
+UPDATE_PACKAGE "luci-app-frps" "kenzok8/jell" "main" "pkg"
 # UPDATE_PACKAGE "luci-app-homebox" "kenzok8/jell" "main" "pkg"
 # UPDATE_PACKAGE "luci-app-vlmcsd" "kenzok8/jell" "main" "pkg"
 # UPDATE_PACKAGE "luci-app-wan-mac" "kenzok8/jell" "main" "pkg"
@@ -75,10 +75,10 @@ UPDATE_PACKAGE "luci-app-netspeedtest" "haiibo/packages" "main" "pkg"
 if [[ $WRT_REPO != *"lede"* ]]; then
 	UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
 	UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
-	UPDATE_PACKAGE "mihomo" "morytyann/OpenWrt-mihomo" "main" "pkg"
+	# UPDATE_PACKAGE "mihomo" "morytyann/OpenWrt-mihomo" "main" "pkg"
 
-	UPDATE_PACKAGE "alpha" "derisamedia/luci-theme-alpha" "master"
-	UPDATE_PACKAGE "alpha-config" "animegasan/luci-app-alpha-config" "master"
+	# UPDATE_PACKAGE "alpha" "derisamedia/luci-theme-alpha" "master"
+	# UPDATE_PACKAGE "alpha-config" "animegasan/luci-app-alpha-config" "master"
 fi
 
 if [[ $WRT_REPO == *"openwrt-6.x"* ]]; then
