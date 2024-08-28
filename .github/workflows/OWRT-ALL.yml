@@ -4,18 +4,18 @@ name: OWRT-ALL
 #CI计划
 on:
   #自动编译：每天早上4点
-  schedule:
-    - cron: 0 20 * * *
+  # schedule:
+  #   - cron: 0 20 * * *
   #手动编译
   workflow_dispatch:
     inputs:
       PACKAGE:
-        description: '手动调整插件包，仅限一个。'
+        description: "手动调整插件包，仅限一个。"
         required: false
         type: string
       TEST:
-        description: '仅输出配置文件，不编译固件。'
-        default: 'false'
+        description: "仅输出配置文件，不编译固件。"
+        default: "false"
         required: false
         type: boolean
 
