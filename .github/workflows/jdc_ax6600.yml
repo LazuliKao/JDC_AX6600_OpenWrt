@@ -34,7 +34,11 @@ jobs:
       #max-parallel: 3
       matrix:
         TARGET: [IPQ60XX-WIFI-YES]
-        SOURCE: [VIKINGYFY/immortalwrt]
+        SOURCE:
+          - VIKINGYFY/immortalwrt
+          - LiBwrt-op/openwrt-6.x
+          - King-Of-Knights/openwrt-6.x
+          - breeze303/openwrt-ipq,
 
     #调用公用编译核心WRT_jdc_ax1800pro.yml
     uses: ./.github/workflows/WRT_jdc_ax6600.yml
