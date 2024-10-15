@@ -49,7 +49,7 @@ UPDATE_PACKAGE "luci-app-onliner" "haiibo/packages" "main" "pkg"
 
 # UPDATE_PACKAGE "luci-theme-netgear" "haiibo/packages" "main" "pkg"
 # UPDATE_PACKAGE "adguardhome" "haiibo/packages" "main" "pkg"
-UPDATE_PACKAGE "luci-app-adguardhome" "haiibo/packages" "main" "pkg"
+# UPDATE_PACKAGE "luci-app-adguardhome" "haiibo/packages" "main" "pkg"
 # UPDATE_PACKAGE "luci-app-advanced" "haiibo/packages" "main" "pkg"
 # UPDATE_PACKAGE "luci-app-ikoolproxy" "haiibo/packages" "main" "pkg"
 UPDATE_PACKAGE "luci-app-netdata" "haiibo/packages" "main" "pkg"
