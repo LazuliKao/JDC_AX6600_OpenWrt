@@ -1,3 +1,7 @@
+用这个 -> https://github.com/LazuliKao/wrt_release 
+
+
+
 # OpenWRT-CI
 云编译OpenWRT固件
 
